@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup Instructions</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+	<link href="css/tailwind.min.css" rel="stylesheet">
+    <link href="css/all.min.css" rel="stylesheet">
+    <style>	
+	
+	
+	
+	
+    <style>
+        body {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        }
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #ff6f61;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .step {
+            margin-bottom: 2rem;
+        }
+        .step h2 {
+            color: #6c5ce7;
+            margin-bottom: 1rem;
+        }
+        .step p {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .step ul {
+            list-style-type: disc;
+            margin-left: 2rem;
+        }
+        .step ul li {
+            margin-bottom: 0.5rem;
+        }
+        .tip {
+            background: #fff3cd;
+            color: #856404;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto max-w-3xl p-6">
+        <h1 class="text-4xl font-bold">Backup Instructions</h1>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 1: Access the Backup Page</h2>
+            <p>Open your web browser and navigate to the backup page. The URL should be  <code>http://192.168.1.210:1111</code>.</p>
+        </div>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 2: Fill in the Database Information</h2>
+            <ul>
+                <li><strong>Database Host:</strong> Enter the hostname of your database server. This is usually <code>localhost</code> if your database is on the same server as your web application.</li>
+                <li><strong>Username:</strong> Enter the username for your database.</li>
+                <li><strong>Password:</strong> Enter the password for your database.</li>
+                <li><strong>Database Name:</strong> Enter the name of the database you want to back up.</li>
+                <li><strong>Backup Directory:</strong> Enter the directory on your local PC where you want to save the backup file. For example, <code>C:\backups</code>.</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 3: Start the Backup Process</h2>
+            <p>Click the "Start Backup" button to begin the backup process.</p>
+        </div>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 4: Download the Backup File</h2>
+            <p>Once the backup process is complete, you will see a success message and a "Download Backup" button.</p>
+            <p>Click the "Download Backup" button to download the backup file to your local PC.</p>
+        </div>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 5: Save the Backup File</h2>
+            <p>Your browser will prompt you to save the backup file. Choose the location on your local PC where you want to save the file and click "Save".</p>
+        </div>
+
+        <div class="step">
+            <h2 class="text-2xl font-semibold">Step 6: Verify the Backup File</h2>
+            <p>Navigate to the directory where you saved the backup file.</p>
+            <p>Ensure that the backup file is present and has the correct name and extension (e.g., <code>backup-yourdatabase-YYYY-MM-DD-HH-MM-SS.sql.gz</code>).</p>
+        </div>
+
+        <div class="tip">
+            <h2 class="text-2xl font-semibold">Additional Tips</h2>
+            <ul>
+                <li><strong>Backup Regularly:</strong> It's a good practice to back up your database regularly to prevent data loss.</li>
+                <li><strong>Store Backups Safely:</strong> Keep your backup files in a secure location, and consider using external storage or cloud services for added safety.</li>
+                <li><strong>Test Restores:</strong> Periodically test restoring your backups to ensure they are valid and can be used to recover your data if needed.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
