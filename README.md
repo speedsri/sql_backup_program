@@ -54,6 +54,7 @@ A PHP-based web application for creating and managing MySQL database backups wit
      ```
 
 ## Usage
+![image](https://github.com/user-attachments/assets/c51972d3-b57d-43cf-9d6b-9769415af231)
 
 1. Access the application through your web browser:
    ```
